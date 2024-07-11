@@ -1,0 +1,23 @@
+.area {
+
+}
+
+.area div {
+    width: 300px;
+    text-align: center;
+}
+
+.area img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.area h3 {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.area p {
+    font-size: 14px;
+    line-height: 1.6em;
+}

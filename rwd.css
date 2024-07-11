@@ -1,0 +1,59 @@
+/* 響應式設計語法 */
+@media screen and (max-width: 768px) {
+    header ul {
+        display: none;
+    }
+
+    header h1 {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .banner h2 {
+        font-size: 40px;
+    }
+
+    .menu {
+        display: block;
+        background-color: transparent;
+        color: white;
+        font-size: 35px;
+        position: absolute;
+        top: 15px;
+        left: 20px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .news {
+        flex-direction: column;
+    }
+
+    .news img {
+        width: 100%;
+    }
+
+    .info {
+        width: 100%;
+        padding: 40px 0;
+    }
+
+    .info h2 {
+        font-size: 30px;
+    }
+
+    .area {
+        flex-direction: column;
+        padding: 60px 0;
+    }
+
+    .area div {
+        margin-bottom: 30px;
+    }
+
+    .dropdown-container {
+        flex-direction: column;
+        gap: 10px;
+        width: 90%;
+    }
+}
